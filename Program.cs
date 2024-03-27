@@ -14,6 +14,6 @@
         var passwordLength = int.Parse(Console.ReadLine());
         string password = GeneratePassword(passwordLength);
         Console.WriteLine("Przetwarzanie znaków specjalnych i wygenerowane Hasło: " + password);
-        Console.WriteLine("abc \" W cudzusłowiu\" \t oraz inne znaki specjalne \n \t \" Nowa linia\" i \"Tab\"");
+        Console.WriteLine("abc \" W cudzysłowiu\" \t oraz inne znaki specjalne \n \t \" Nowa linia\" i \"Tab\"");
     }
 }
